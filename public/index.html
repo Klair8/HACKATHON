@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rampart_One">
+	<link rel="stylesheet" href="style.css">
+    <title>Book Librairy </title>
+</head>
+	<body>
+		<h1>Reader App</h1>
+			<br>
+		<a href="ReadingList.html">Go To My Read Pile</a>
+			<br>
+			<br>
+		<a href="favorite.html">My <i class="fa-solid fa-heart"></i> Books</a>
+		<div id="top">
+			<h1>Browse Google For Inspiration</h1>
+			<input type="search" class="form-control" id="query" placeholder="Search for Books"  size="25" autocomplete="off" autofocus>
+			<input type="button" class="btn btn-success srcBtn" value="Search" name="btn" onclick="queryBooks()">
+		</div>
+		<div id="container"></div> 							
+		<script src="script.js"></script>
+	</body>
+</html>

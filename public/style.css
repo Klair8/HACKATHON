@@ -1,0 +1,122 @@
+/* Index HTML and script.js */
+
+*{
+    font-family: arial, sans-serif;
+    color: black
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image:url("susan-q.jpg");
+    background-repeat: no-repeat;
+    background-size:  2000px auto;
+    font-family: 'Rampart One';
+}
+
+body h1{
+  font-family: 'Rampart One';
+} 
+
+#top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+
+#top h1{
+    font-size: 40px;
+    color:#000000;
+    background-color:rgb(234, 234, 234);   
+}
+
+#container{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {
+font-size: 1.5em;
+text-decoration: none;
+font-family: 'Rampart One';   
+}
+
+input{
+    height: 42.5px;
+    line-height: 30px;
+    font-size: 1em;
+    margin :5px;
+    color: black;
+}
+
+.book{
+    text-align: center;
+    background-color: #f0f0f0;
+    color:black;
+    border: 2px solid black;
+    width: 25%;
+    padding:5px;
+    margin:5px;
+}
+
+/* ReadingList HTML & JS */
+
+#pile{
+        width: 100%;
+        height: auto;
+        background-image:url("susan-q.jpg");
+        background-repeat: no-repeat;
+        background-size:  2000px auto; 
+    }
+    
+#pile h1{
+        font-size: 35px;
+        color:#000000;
+        background-color: white;
+    }
+
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    background-color: #fafafa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px 15px;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f4d2d2;
+}
+
+button{
+    border-radius:5px;
+}
+
+
+#sectiontoptwo{
+    margin-top:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#sectionbottom{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+}
+
