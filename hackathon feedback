@@ -1,0 +1,9 @@
+Reader App
+First of all a very nice project ! 
+I like the file structure with the routes,controllers and modules!
+Nice and clean server.js.
+You utilised the your database very well.
+However, I would suggest that instead of looking through books for inspiration and then manually adding them in your book list-
+have a button on each one of the books that adds it to your list.
+Also maybe have an option to sign in so each user has their own book list and its not only for one user.
+Never the less- excellent job & keep at it !
